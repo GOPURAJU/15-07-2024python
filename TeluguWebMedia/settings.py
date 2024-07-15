@@ -37,7 +37,7 @@ SECRET_KEY = 'django-insecure-e_1l1!rh^%&=o79t0h(ycjat8q!7%5(-%u4lq4e9wve!-%x49p
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [13.50.229.253:8000]
 # ALLOWED_HOSTS = ['teluguwebmedia.co.in', 'www.teluguwebmedia.co.in']
 MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 
@@ -105,10 +105,10 @@ WSGI_APPLICATION = 'TeluguWebMedia.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'dd',
-        'USER':'root',
-        'PASSWORD':'',
-        'HOST':'localhost',
+        'NAME': 'telugumedia',
+        'USER':'admin',
+        'PASSWORD':'Dreamdev12345',
+        'HOST':'database-1.ch0ymcuikejv.eu-north-1.rds.amazonaws.com',
         'PORT':'3306',
         'OPTIONS': {
             'init_command': 'SET sql_mode="STRICT_TRANS_TABLES";',
